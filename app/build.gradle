@@ -1,0 +1,47 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 25
+    buildToolsVersion "25.0.2"
+    defaultConfig {
+        applicationId "com.example.heman.group14_hw09_a"
+        minSdkVersion 14
+        targetSdkVersion 25
+        versionCode 1
+        versionName "1.0"
+        multiDexEnabled true
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+
+    compile 'com.android.support:appcompat-v7:25.3.0'
+    compile 'com.google.firebase:firebase-core:10.2.1'
+    compile 'com.google.firebase:firebase-database:10.2.1'
+    compile 'com.google.firebase:firebase-auth:10.2.1'
+    compile 'com.google.android.gms:play-services-auth:10.2.1'
+    compile 'com.google.code.findbugs:jsr305:2.0.1'
+    compile 'com.google.firebase:firebase-storage:10.2.1'
+    compile 'org.ocpsoft.prettytime:prettytime:4.0.1.Final'
+    compile 'com.google.apis:google-api-services-people:v1-rev2-1.21.0'
+    compile 'com.firebaseui:firebase-ui-storage:0.6.0'
+    compile 'com.android.support.constraint:constraint-layout:1.0.2'
+    compile 'com.squareup.picasso:picasso:2.5.0'
+    compile 'com.google.android.gms:play-services-maps:10.2.1'
+    compile 'com.google.android.gms:play-services:10.2.1'
+    compile 'com.google.maps.android:android-maps-utils:0.3.4'
+    testCompile 'junit:junit:4.12'
+}
+
+apply plugin: 'com.google.gms.google-services'

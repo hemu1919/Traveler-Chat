@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Traveller Chat</string>
+    <string name="clientID">575045100863-h3ffupj29cjgmv8b1ngva6nus6681i4s.apps.googleusercontent.com</string>
+    <string name="clientSecret">kHW9t9usUQwVi-nRV2ZnEwj3 </string>
+    <string name="username_label">Email:</string>
+    <string name="username_hint">xxx@abc.com</string>
+    <string name="password_label">Password:</string>
+    <string name="login_but_label">Login</string>
+    <string name="not_yet_label">Not yet registered?</string>
+    <string name="name1_label">FirstName:</string>
+    <string name="name2_label">LastName:</string>
+    <string name="gender_label">Gender:</string>
+    <string name="email_label">Email:</string>
+    <string name="remove_button">Loading..!</string>
+    <string name="acc_label">Accept Request</string>
+    <string name="name_label">Title</string>
+    <string name="add_labe">Add Friends</string>
+    <string name="uplo_labe">Upload Photo</string>
+    <string name="cre_labe">Create</string>
+    <string name="hint1">Enter Trip title</string>
+    <string name="hint2">Enter Trip Location</string>
+    <string name="add_lab">Set</string>
+    <string name="can_labe">Cancel</string>
+    <string name="loca_label">Location</string>
+    <string name="can_lab">Cancel</string>
+    <string name="own_lab">Owner</string>
+    <string name="frnd_label">Trip Members</string>
+    <string name="update_photo">Edit Photo</string>
+</resources>

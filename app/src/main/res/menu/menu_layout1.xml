@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app = "http://schemas.android.com/apk/res-auto">
+    <group
+        android:id="@+id/group1">
+
+        <item
+            android:id="@+id/contacts"
+            android:title="Contacts"
+            app:showAsAction="never" />
+
+        <item
+            android:id="@+id/groups"
+            android:title="Trips"
+            app:showAsAction="never" />
+
+        <item
+            android:id="@+id/settings"
+            android:title="Settings"
+            app:showAsAction="never" />
+
+    </group>
+
+    <group
+        android:id="@+id/group2">
+
+        <item
+            android:id="@+id/logout"
+            android:title="Logout"
+            app:showAsAction="never" />
+
+    </group>
+
+</menu>

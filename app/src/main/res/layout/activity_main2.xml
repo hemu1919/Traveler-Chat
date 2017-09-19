@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@drawable/back"
+    tools:context="com.example.heman.group14_hw09_a.Main2Activity">
+
+    <TextView
+        android:id="@+id/log_text"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+
+        android:layout_marginRight="15dp"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_dark"
+        android:visibility="invisible" />
+
+    <ListView
+        android:id="@+id/contact_list"
+        android:layout_width="360dp"
+        android:layout_height="match_parent"
+        android:visibility="invisible"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/log_text"
+        android:layout_alignStart="@+id/log_text" />
+
+</RelativeLayout>

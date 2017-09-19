@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:background="@android:drawable/editbox_background_normal">
+
+    <EditText
+        android:id="@+id/mt1"
+        android:layout_width="225dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="false"
+        android:ems="10"
+        android:hint="Type message to send"
+        android:inputType="textPersonName" />
+
+    <ImageView
+        android:id="@+id/addMessage1"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignBottom="@+id/addPhoto1"
+        android:layout_marginLeft="24dp"
+        android:layout_marginStart="24dp"
+        android:layout_toRightOf="@+id/addPhoto1"
+        app:srcCompat="@drawable/send" />
+
+    <ImageView
+        android:id="@+id/addPhoto1"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignBottom="@+id/mt1"
+        android:layout_marginLeft="19dp"
+        android:layout_marginStart="19dp"
+        android:layout_toEndOf="@+id/mt1"
+        android:layout_toRightOf="@+id/mt1"
+        app:srcCompat="@drawable/gallery" />
+</RelativeLayout>
